@@ -1,0 +1,425 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+body{
+
+    background:#050505;
+    color:white;
+
+}
+
+
+
+/* ENCABEZADO */
+
+header{
+
+    background:#111;
+    text-align:center;
+    padding:20px;
+    border-bottom:3px solid #ffb000;
+
+}
+
+
+
+.logo{
+
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    box-shadow:0 0 25px #ffb000;
+
+}
+
+
+
+marquee{
+
+    margin:20px;
+    color:#ffb000;
+    font-size:25px;
+    font-weight:bold;
+
+}
+
+
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+
+}
+
+
+
+nav a:hover{
+
+    color:#ffb000;
+
+}
+
+
+
+
+
+
+/* PORTADA */
+
+
+.inicio{
+
+    height:450px;
+
+
+    background:
+
+    linear-gradient(
+    rgba(0,0,0,.75),
+    rgba(0,0,0,.75)
+    ),
+
+    url("fondo.jpg");
+
+
+    background-size:cover;
+
+    background-position:center;
+
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+
+}
+
+
+
+.inicio h1{
+
+    font-size:55px;
+
+    color:#ffb000;
+
+    text-shadow:
+    0 0 20px red;
+
+
+}
+
+
+
+.inicio p{
+
+    font-size:25px;
+
+}
+
+
+
+
+
+
+
+/* CAMISAS */
+
+
+section{
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+
+
+h2{
+
+    color:#ffb000;
+
+    font-size:35px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+
+.productos{
+
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+
+}
+
+
+
+.producto{
+
+
+    background:#151515;
+
+    width:300px;
+
+    padding:25px;
+
+    border-radius:20px;
+
+
+    box-shadow:
+
+    0 0 20px #ffb000;
+
+
+}
+
+
+
+.producto img{
+
+
+    width:100%;
+
+    height:300px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+
+}
+
+
+
+.producto h3{
+
+    color:#ffb000;
+
+    margin:15px;
+
+}
+
+
+
+.producto p{
+
+    font-size:20px;
+
+}
+
+
+
+
+
+
+
+button{
+
+
+    background:#ffb000;
+
+    color:black;
+
+    border:none;
+
+
+    padding:15px 30px;
+
+
+    border-radius:30px;
+
+
+    font-weight:bold;
+
+
+    cursor:pointer;
+
+
+    margin-top:15px;
+
+
+}
+
+
+
+button:hover{
+
+
+    background:red;
+
+    color:white;
+
+    transform:scale(1.1);
+
+
+}
+
+
+
+
+
+
+
+
+/* CARRITO */
+
+
+.carrito{
+
+
+    background:#111;
+
+
+    max-width:500px;
+
+
+    margin:auto;
+
+
+    padding:30px;
+
+
+    border-radius:20px;
+
+
+    box-shadow:0 0 20px red;
+
+
+}
+
+
+
+#total{
+
+
+    color:#ffb000;
+
+    font-size:35px;
+
+
+}
+
+
+
+
+
+/* REDES */
+
+
+#redes a{
+
+
+    display:block;
+
+
+    max-width:350px;
+
+
+    margin:20px auto;
+
+
+    padding:20px;
+
+
+    border-radius:25px;
+
+
+    background:#151515;
+
+
+    color:white;
+
+
+    text-decoration:none;
+
+
+    font-size:22px;
+
+
+    box-shadow:0 0 15px #ffb000;
+
+
+}
+
+
+
+#redes a:hover{
+
+
+    background:#ffb000;
+
+    color:black;
+
+
+}
+
+
+
+
+
+
+
+/* QR */
+
+
+.qr img{
+
+
+    width:220px;
+
+
+    border-radius:20px;
+
+
+    box-shadow:0 0 25px white;
+
+
+}
+
+
+
+
+
+
+
+footer{
+
+
+    background:#111;
+
+
+    padding:25px;
+
+
+    text-align:center;
+
+
+    color:#ffb000;
+
+
+}
